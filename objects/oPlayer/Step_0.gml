@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
-key_left = keyboard_check(vk_left)
-key_right = keyboard_check(vk_right)
-key_jump = keyboard_check_pressed(vk_space)
+key_left = keyboard_check(ord("A "));
+key_right = keyboard_check(ord("D"));
+key_jump = keyboard_check_pressed(vk_space);
 
 // Calculate movement dir
 var move = key_right - key_left;
@@ -19,6 +19,7 @@ if (place_meeting(x,y+1,oWall) && (key_jump))
 //Horizontal Collision
 if (place_meeting(x+h_speed, y, oWall))
 {
+	//While not hitting a wall
 	while (!place_meeting(x+sign(h_speed),y,oWall))
 	{
 		x = x + sign(h_speed);
