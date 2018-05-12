@@ -23,9 +23,9 @@ switch current_state {
 			}
 		} else {
 			sprite = sPlayerJump;
-			if (v_speed > 1 && frame > 5) {
+			if (v_speed > 1 && frame > 3) {
 				//prevents animation repeat (floating)
-				frame = 5;
+				frame = 3;
 			}
 		}
 		break;

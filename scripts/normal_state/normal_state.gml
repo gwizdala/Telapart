@@ -18,7 +18,7 @@ if (on_ground) {
 	
 	// squash the character on finishing a jump
 	if (!landed) {
-		squash_or_stretch(1.2, 0.8);
+		squash_or_stretch(1.05, 0.90);
 		landed = true;
 	}
 	
@@ -26,7 +26,7 @@ if (on_ground) {
 	if (up) {
 		v_speed = j_power;
 		// stretch the character on beginning a jump
-		squash_or_stretch(0.7, 1.3);
+		squash_or_stretch(0.90, 1.05);
 	}
 } else {
 	// change the acceleration and deceleration parameters
