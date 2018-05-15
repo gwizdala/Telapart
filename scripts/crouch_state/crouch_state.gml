@@ -3,5 +3,5 @@
 h_speed = approach(h_speed, 0, 0.1); // sliding stop
 
 if (!down) {
-	current_state = player_states.normal;	
+	current_state = player_states.idle;	
 }

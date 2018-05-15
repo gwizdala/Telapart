@@ -2,7 +2,8 @@
 
 // character state machine
 enum player_states {
-	normal,
+	idle,
+	jump,
 	crouch,
 	hit
 }

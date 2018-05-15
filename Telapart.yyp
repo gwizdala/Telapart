@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "459bac08-604f-406a-85eb-76c9253ee6e7",
+            "Value": {
+                "id": "94af6259-a4ea-4dc1-af8e-78b3d89ba2aa",
+                "resourcePath": "objects\\oProjectile\\oProjectile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5a517077-5364-4eb7-998e-e862e82522af",
             "Value": {
                 "id": "364cf2ac-a09f-4ede-9016-373a1133a39e",
@@ -204,6 +212,14 @@
                 "id": "952f29c5-35d4-4f7f-b0cc-44adaf654726",
                 "resourcePath": "views\\719d6bb1-8472-46f2-a5c0-d4579627f679.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "754e1b10-9d04-4227-a133-8b817f6003bf",
+            "Value": {
+                "id": "e7f3c324-562b-4186-8168-5ebf239c05ae",
+                "resourcePath": "scripts\\jump_state\\jump_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -415,10 +431,18 @@
             }
         },
         {
+            "Key": "f71b541b-b1f4-4630-950b-7c7f8b9f8e00",
+            "Value": {
+                "id": "4a067a1c-95a0-4c9e-acc1-44c889ebdfc5",
+                "resourcePath": "sprites\\sProjectile\\sProjectile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f729091b-01f9-4289-afb7-b26202b4f0b9",
             "Value": {
                 "id": "f2251ec8-5c86-4b45-9fc0-44e11950a1a2",
-                "resourcePath": "scripts\\normal_state\\normal_state.yy",
+                "resourcePath": "scripts\\idle_state\\idle_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -453,13 +477,14 @@
         "7ac0519c-4e65-4b0b-8199-fa58702b4af5",
         "039a5bcc-965c-43e6-add9-30f9da2890d9",
         "f729091b-01f9-4289-afb7-b26202b4f0b9",
+        "754e1b10-9d04-4227-a133-8b817f6003bf",
         "051b2c43-2637-4c6d-8a8e-38f1eb310648",
         "680215d6-f7cf-4083-83bf-a0b70c79fe0a",
+        "0be78a87-0f8a-4a84-9ef0-b5eadec73481",
         "c64bf3a7-c9ab-4afe-bf55-de2ab2ea11b8",
         "ab6fd7c4-55be-4ecf-a87e-67bd4c49ffba",
         "037b3002-de1b-42e8-8595-3a8a70204611",
         "e8a0713b-c99d-44cd-ae0d-2b98bec13c75",
-        "0be78a87-0f8a-4a84-9ef0-b5eadec73481",
         "36e4f3fa-4809-45a7-8a85-dad73636d105",
         "6933773d-0bce-4f19-9255-46c8c7ad690c"
     ],

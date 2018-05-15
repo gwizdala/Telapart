@@ -27,7 +27,7 @@ landed = true; // determines when the jump completed
 // Acceleration parameters
 air_accel		= 0.1; // acceleration when in the air
 ground_accel	= 0.45; // acceleration when on the ground
-air_decel		= 0;   // deceleration when in the air
+air_decel		= 0.5;   // deceleration when in the air
 ground_decel	= 100; // deceleration when on the ground
 
 a_speed = ground_accel;	// acceleration

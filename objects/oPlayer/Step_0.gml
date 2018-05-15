@@ -8,8 +8,11 @@ frame_counter();
 
 // control the various states of the character
 switch current_state {
-	case player_states.normal:
-		normal_state();
+	case player_states.idle:
+		idle_state();
+		break;
+	case player_states.jump:
+		jump_state();
 		break;
 	case player_states.crouch:
 		crouch_state();

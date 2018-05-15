@@ -7,7 +7,7 @@
         "36e4f3fa-4809-45a7-8a85-dad73636d105"
     ],
     "filterType": "GMScript",
-    "folderName": "Controller",
+    "folderName": "Initialization",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
