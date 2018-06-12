@@ -24,9 +24,9 @@ if (place_meeting(x+h_speed, y, oWall))
 x = x + h_speed;
 
 //Vertical Collision
-if (place_meeting(x,y+v_speed,oWall))
+if (place_meeting(x,y+v_speed,oWall) || dimension_place_meeting(x,y+v_speed))
 {
-	while (!place_meeting(x,y+sign(v_speed),oWall)) 
+	while (!place_meeting(x,y+sign(v_speed),oWall) && !dimension_place_meeting(x,y+v_speed)) 
 	{
 		y = y + sign(v_speed);
 	}

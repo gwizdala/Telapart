@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "9a4fc99a-9e39-4ce2-b114-35b8a108b170",
+            "Value": {
+                "id": "a6cbbdda-92cd-4662-bfd7-e590deb8bc45",
+                "resourcePath": "scripts\\dimension_place_meeting\\dimension_place_meeting.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9bb1f189-1f7f-489b-998c-ae5885f02742",
             "Value": {
                 "id": "c763a6c8-9116-4fc2-b119-7999ebe9dcb0",
@@ -559,6 +567,7 @@
         "037b3002-de1b-42e8-8595-3a8a70204611",
         "e8a0713b-c99d-44cd-ae0d-2b98bec13c75",
         "eaac31ee-15c0-4225-ae33-e4442bc14b25",
+        "9a4fc99a-9e39-4ce2-b114-35b8a108b170",
         "36e4f3fa-4809-45a7-8a85-dad73636d105"
     ],
     "tutorial": ""
