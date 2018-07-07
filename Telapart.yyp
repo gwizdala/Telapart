@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01cf5dd1-9faa-4f53-819f-2a68dc9276f3",
+            "Value": {
+                "id": "6d800b49-04a4-4b41-afea-179363992bdd",
+                "resourcePath": "views\\01cf5dd1-9faa-4f53-819f-2a68dc9276f3.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "037b3002-de1b-42e8-8595-3a8a70204611",
             "Value": {
                 "id": "7ee5f5bf-7a9f-4b56-9ec0-1d1ab8f336c2",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "15f6dba7-f208-4ef0-ae36-7d885bda20cb",
+            "Value": {
+                "id": "0b04b228-ff28-40ad-9cc1-6ec2cfae1912",
+                "resourcePath": "sprites\\sTpBase\\sTpBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1db183f0-e147-47cc-b61f-68413f8cd5de",
             "Value": {
                 "id": "a80dcba7-a783-4539-b0bb-ba05938c7e46",
@@ -159,11 +175,35 @@
             }
         },
         {
+            "Key": "44ef0026-7560-4d55-bb72-fddd6fb56cfc",
+            "Value": {
+                "id": "5d48fe61-493c-4df6-b799-cb6f8d104553",
+                "resourcePath": "sprites\\sTpCapstone\\sTpCapstone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "459bac08-604f-406a-85eb-76c9253ee6e7",
             "Value": {
                 "id": "94af6259-a4ea-4dc1-af8e-78b3d89ba2aa",
                 "resourcePath": "objects\\oProjectile\\oProjectile.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4fb5d558-4f4a-429e-8c14-ffa6cce39009",
+            "Value": {
+                "id": "693968a7-3e3a-41ca-a595-94d461cfa7aa",
+                "resourcePath": "views\\4fb5d558-4f4a-429e-8c14-ffa6cce39009.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "556dbc78-c797-451b-b800-aa77e4fa007f",
+            "Value": {
+                "id": "58da38f7-4221-4f83-9f25-a4bc4479f957",
+                "resourcePath": "sprites\\sTeleporter\\sTeleporter.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -367,6 +407,14 @@
             }
         },
         {
+            "Key": "a7730960-0588-446d-b0a9-711bb933d6fe",
+            "Value": {
+                "id": "e8f2ec71-dc09-4be4-8ec0-28aeca5e07e5",
+                "resourcePath": "views\\a7730960-0588-446d-b0a9-711bb933d6fe.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a897a3a1-2864-4083-aefe-d2b72d370b80",
             "Value": {
                 "id": "0a274a68-1099-4560-b153-df13ec5b8044",
@@ -388,6 +436,14 @@
                 "id": "2319ca89-2bdc-49d5-9ad2-48d912211f28",
                 "resourcePath": "scripts\\frame_reset\\frame_reset.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ae575ae5-5a0c-4a76-9cc1-aafbb2256e02",
+            "Value": {
+                "id": "bb4b358d-bc22-4903-93ea-39ed7e572fcb",
+                "resourcePath": "sprites\\sTpCurve\\sTpCurve.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -444,6 +500,14 @@
                 "id": "78aa5a64-0e65-43c8-b867-d6f44a4e7ae3",
                 "resourcePath": "shaders\\curr_dim_shader\\curr_dim_shader.yy",
                 "resourceType": "GMShader"
+            }
+        },
+        {
+            "Key": "e0e9d021-8ace-459c-b2ff-f9bffeaa29d8",
+            "Value": {
+                "id": "3f27f850-8a3f-4b89-a557-2b62b1a2ec49",
+                "resourcePath": "objects\\Teleporter\\Teleporter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
