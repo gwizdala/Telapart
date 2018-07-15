@@ -12,10 +12,10 @@ frame_reset();
 
 
 //Horizontal Collision
-if (place_meeting(x+h_speed, y, oWall))
+if (place_meeting(x+h_speed, y, oWall) || dimension_place_meeting(x+h_speed, y))
 {
 	//While not hitting a wall
-	while (!place_meeting(x+sign(h_speed),y,oWall))
+	while (!place_meeting(x+sign(h_speed),y,oWall) && !dimension_place_meeting(x+sign(h_speed),y))
 	{
 		x = x + sign(h_speed);
 	}
