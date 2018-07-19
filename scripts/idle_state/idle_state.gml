@@ -33,8 +33,11 @@ if (up) {
 	current_state = player_states.jump;
 }
 
-// change to crouching state
-if (down) {
+// Transition to different states based on input
+if (shoot) {
+	current_state = player_states.shoot;
+} else if (down)
+{
 	current_state = player_states.crouch;
 	squash_or_stretch(1.2, 0.8);
 }

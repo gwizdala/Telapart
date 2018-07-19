@@ -17,4 +17,7 @@ switch current_state {
 	case player_states.crouch:
 		crouch_state();
 		break;
+	case player_states.shoot:
+		shoot_state();
+		break;
 }

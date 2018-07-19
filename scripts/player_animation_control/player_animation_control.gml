@@ -44,7 +44,11 @@ switch current_state {
 		}
 
 		break;
-		
+	
+	case player_states.shoot:
+	{
+		sprite = sPlayerShoot;	
+	}
 }
 
 // reset to the 0 frame on sprite change

@@ -8,6 +8,7 @@ left	= false;
 right	= false;
 up		= false;
 down	= false;
+shoot   = false;
 
 // current states for the character
 current_state	= 0;
