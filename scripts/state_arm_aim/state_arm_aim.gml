@@ -1,3 +1,13 @@
+/// @description state_arm_aiming
+// The aiming state for the player's arm
+
+// Because this is default state, set vars to initial values
+// if being run for the first time
+if(state_new)
+{
+    // Set vars here if applicable
+}
+
 // changes the position of the arm based on where the player is aiming + the direction of the character
 //Animation
 if (oPlayer.h_speed > 0)

@@ -1,11 +1,8 @@
-/// @description The termination of movement for the character
+/// @description Collision handling
 
 // find the location for the character
 x_pos = x;
 y_pos = y;
-
-// handle animation changes
-player_animation_control();
 
 // end the animation for the character
 frame_reset();
@@ -20,6 +17,7 @@ if (place_meeting(x+h_speed, y, oWall) || dimension_place_meeting(x+h_speed, y))
 		x = x + sign(h_speed);
 	}
 	h_speed = 0;
+	state_switch("Stand")
 }
 x = x + h_speed;
 

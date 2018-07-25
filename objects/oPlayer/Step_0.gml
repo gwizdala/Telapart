@@ -6,6 +6,11 @@ player_buttons();
 // initialize the player animation
 frame_counter();
 
+// State Management
+state_execute();
+state_update();
+
+/*
 // control the various states of the character
 switch current_state {
 	case player_states.idle:
@@ -21,3 +26,4 @@ switch current_state {
 		shoot_state();
 		break;
 }
+*/

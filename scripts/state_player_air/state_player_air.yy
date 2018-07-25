@@ -1,8 +1,8 @@
 {
-    "id": "f729091b-01f9-4289-afb7-b26202b4f0b9",
+    "id": "5ff19d51-a9db-45c2-80cc-69558737d121",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "idle_state",
+    "name": "state_player_air",
     "IsCompatibility": false,
     "IsDnD": false
 }

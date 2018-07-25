@@ -1,9 +1,4 @@
-/// @description Starts movement of the character
-// checks to see if the character has collided with the floor
-on_ground = check_below();
+/// @description Perform initial checks
 
-if (on_ground) {
-	v_speed = 0;	
-} else {
-	v_speed += g_speed;	
-}
+// Pos check before doing anything else
+on_ground = check_below();

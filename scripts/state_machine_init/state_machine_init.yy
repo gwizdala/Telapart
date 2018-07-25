@@ -1,8 +1,8 @@
 {
-    "id": "bb1f3d99-03c1-4ee5-b92e-2f129c29612c",
+    "id": "cd60d4c5-a81c-4ca7-95d5-1991972dce7e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "aiming_state",
+    "name": "state_machine_init",
     "IsCompatibility": false,
     "IsDnD": false
 }

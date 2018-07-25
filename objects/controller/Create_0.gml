@@ -1,8 +1,6 @@
 /// @description The persistent controller for the game
 // Manages the global vars/enums for all objects in the game
 
-enum_init();
-
 //Global Constants
 NUM_DIMENSIONS = 3;
 

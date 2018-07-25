@@ -2,7 +2,24 @@
 a_speed = air_accel;
 d_speed = air_decel;
 
-// handle movement acceleration and sliding
+// Handle sprite animation
+if (on_ground) 
+{
+	if(!landed) 
+	{
+		sprite = sPlayerJump;
+		frame = 7;
+	}
+} else {
+	sprite = sPlayerJump;
+}
+		
+if (v_speed < 2 && frame > 3) {
+	//prevents animation repeat (floating)
+	frame = 3;
+}
+
+// Handle horizontal movement + acceleration
 if (left) {
 	if (h_speed > 0) {
 		h_speed = 0;	
@@ -17,9 +34,10 @@ if (left) {
 	h_speed = approach(h_speed, 0, d_speed);
 }
 
-// Handle jump movement
+// Handle vertical movement + state change
 if (!on_ground)
 {	
+	v_speed += g_speed;	
 	landed = false;	
 	// handle jump control (distance up while in air)
 	if(v_speed < 0 && !up) {
@@ -28,13 +46,8 @@ if (!on_ground)
 } 
 else
 {
-	// If haven't performed landing update yet
-	if (!landed) 
-	{
-		// Perform landing squish
-		squash_or_stretch(1.05, 0.90);
-		landed = true;	
-	}
+	v_speed = 0;
+	landed = true;
 	// Update to new state
-	current_state = player_states.idle;	
+	state_switch("Stand")
 }
