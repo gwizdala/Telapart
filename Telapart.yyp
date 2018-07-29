@@ -335,14 +335,6 @@
             }
         },
         {
-            "Key": "7ac0519c-4e65-4b0b-8199-fa58702b4af5",
-            "Value": {
-                "id": "1c05d5e9-4719-4ad0-bbb6-3efcb2a826bd",
-                "resourcePath": "scripts\\arm_animation_control\\arm_animation_control.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "7c6e931e-fe11-4ecc-8319-03714e77547c",
             "Value": {
                 "id": "94bc461b-5f6d-4b3f-94b7-b0059a63a7d3",
@@ -663,6 +655,14 @@
             }
         },
         {
+            "Key": "ee8bb8c5-1aad-41ee-b28d-58384ce5d83f",
+            "Value": {
+                "id": "1a75ffad-a7cd-4e69-a836-e9b712358690",
+                "resourcePath": "scripts\\state_player_run\\state_player_run.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "1c1b06a5-ea19-4d30-a869-cbd5a79d94a0",
@@ -698,11 +698,11 @@
     "script_order": [
         "95ac3aea-e2ff-4d44-9c0a-07e8883c3ce5",
         "29972378-aa43-4f68-97b4-377cef019703",
-        "7ac0519c-4e65-4b0b-8199-fa58702b4af5",
         "039a5bcc-965c-43e6-add9-30f9da2890d9",
         "e8d77504-7e4f-495a-a3da-73c910f4caf8",
         "6bcde6a1-49f7-4438-bd2b-4d00f1645793",
         "5ff19d51-a9db-45c2-80cc-69558737d121",
+        "ee8bb8c5-1aad-41ee-b28d-58384ce5d83f",
         "680215d6-f7cf-4083-83bf-a0b70c79fe0a",
         "0be78a87-0f8a-4a84-9ef0-b5eadec73481",
         "6933773d-0bce-4f19-9255-46c8c7ad690c",

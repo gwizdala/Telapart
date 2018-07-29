@@ -1,8 +1,8 @@
 {
-    "id": "7ac0519c-4e65-4b0b-8199-fa58702b4af5",
+    "id": "ee8bb8c5-1aad-41ee-b28d-58384ce5d83f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "arm_animation_control",
+    "name": "state_player_run",
     "IsCompatibility": false,
     "IsDnD": false
 }

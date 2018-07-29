@@ -10,9 +10,10 @@ up		= false;
 down	= false;
 shoot   = false;
 
-// movement speeds
+// movement vars
 h_speed = 0;
 v_speed = 0;
+facing = 1;
 
 // jump related vars
 g_speed = 0.6;
@@ -37,6 +38,7 @@ state_machine_init()
 // set states for this object
 state_create("Stand",state_player_stand)
 state_create("Air",state_player_air)
+state_create("Run", state_player_run)
 
 // default state
 state_init("Stand");

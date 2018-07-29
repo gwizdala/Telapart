@@ -1,4 +1,4 @@
-// change the acceleration and deceleration parameters
+// set state-appropriate acceleration and deceleration parameters
 a_speed = air_accel;
 d_speed = air_decel;
 
@@ -21,11 +21,17 @@ if (v_speed < 2 && frame > 3) {
 
 // Handle horizontal movement + acceleration
 if (left) {
+	// update sprite direction
+	oPlayer.facing = -1;
+	// reverse direction if already moving
 	if (h_speed > 0) {
 		h_speed = 0;	
 	}
 	h_speed = approach(h_speed, -m_speed, a_speed);
 } else if (right) {
+	// update sprite direction
+	oPlayer.facing = 1;
+	// reverse direction if already moving
 	if (h_speed < 0) {
 		h_speed = 0;	
 	}

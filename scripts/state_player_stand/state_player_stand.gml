@@ -13,52 +13,35 @@ if(state_new)
 	state_new=false;
 }
 
-// Handle sprite animation
-moving = false;
-if (left) {
-	facing = -1;
-	moving = true;
-} else if (right) {
-	facing = 1;
-	moving = true;
-}
-		
-if (moving) {
-	sprite = sPlayerWalk;
-} else {
-	sprite = sPlayerIdle;
-}
-		
-// THIS WILL BE MOVED TO WALK STATE
-// handle horizontal movement acceleration + sliding
-if (left) {
-	if (h_speed > 0) {
-		h_speed = 0;	
-	}
-	h_speed = approach(h_speed, -m_speed, a_speed);
-} else if (right) {
-	if (h_speed < 0) {
-		h_speed = 0;	
-	}
-	h_speed = approach(h_speed, m_speed, a_speed);
-} else {
-	h_speed = approach(h_speed, 0, d_speed);
-}
+show_debug_message("In idle state")
 
-// change the acceleration and deceleration parameters
+// set sprite		
+sprite = sPlayerIdle;
+
+// set state-appropriate acceleration and deceleration parameters
 a_speed = ground_accel;
 d_speed = ground_decel;
 
-// Vertical movement
+// handle vertical movement
 if (up)
 {
 	// Begin jump
 	v_speed = j_power;
 }
 
-// Switch state to Air if in air
+// switch state to air if in air
 if (!on_ground)
 {	
 	v_speed += g_speed;	
 	state_switch("Air")
-} 
+} else
+// switch state to running if movement key pressed
+{
+	if (left) {
+		oPlayer.facing = -1;
+		state_switch("Run")
+	} else if (right) {
+		oPlayer.facing = 1;
+		state_switch("Run")
+	}	
+}
