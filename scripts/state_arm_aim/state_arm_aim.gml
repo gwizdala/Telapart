@@ -38,5 +38,5 @@ if (image_xscale = 1) {
 // if we are planning on using button modifiers/additional mouse clicks,
 // we should probably have an arm_buttons file or add to player_buttons
 if (mouse_check_button(mb_left)) {
-	current_state_arm = arm_states.firing;	
+	current_state_arm = state_switch("Fire");	
 }

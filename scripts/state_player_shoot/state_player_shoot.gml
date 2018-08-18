@@ -1,17 +1,6 @@
-/// @description state_player_stand
-//The Standing State for Player
+/// @description state_player_shoot
+//The State for when the player is shooting
 
-// Because this is default state, set vars to initial values
-// if being run for the first time
-if(state_new)
-{
-    x_speed=0;
-    y_speed=0;
-    image_speed=0;
-    sprite_index=sPlayerIdle;
-    image_index=0;
-	state_new=false;
-}
 // set sprite		
 sprite = sPlayerIdle;
 
@@ -23,10 +12,6 @@ d_speed = ground_decel;
 h_speed = 0;
 v_speed = 0;
 
-if (shoot)
-{
-	state_switch("Shoot")	
-}
 // handle vertical movement
 if (up)
 {

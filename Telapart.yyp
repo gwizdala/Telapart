@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "3ce27de1-fcd9-466a-86d2-9e92a446ac40",
+            "Value": {
+                "id": "2fdc700c-ed8e-4c71-863b-acdd8c152ef2",
+                "resourcePath": "scripts\\dim_place_meet\\dim_place_meet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "42b26bb4-233c-49cb-9265-5637b341afe6",
             "Value": {
                 "id": "4309f325-9496-4126-97b7-4ab02636fb7e",
@@ -543,6 +551,14 @@
             }
         },
         {
+            "Key": "c7ce005d-ed24-4777-97db-51b42ae9a8e3",
+            "Value": {
+                "id": "c6316513-ebf7-4549-9cfc-8d911094e436",
+                "resourcePath": "scripts\\state_player_shoot\\state_player_shoot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cbee2869-c9d5-43ca-80d5-02e10ddc2473",
             "Value": {
                 "id": "2254b7ee-3de3-4b27-b443-c5c263f19d16",
@@ -701,6 +717,7 @@
         "039a5bcc-965c-43e6-add9-30f9da2890d9",
         "e8d77504-7e4f-495a-a3da-73c910f4caf8",
         "6bcde6a1-49f7-4438-bd2b-4d00f1645793",
+        "c7ce005d-ed24-4777-97db-51b42ae9a8e3",
         "5ff19d51-a9db-45c2-80cc-69558737d121",
         "ee8bb8c5-1aad-41ee-b28d-58384ce5d83f",
         "680215d6-f7cf-4083-83bf-a0b70c79fe0a",
@@ -712,6 +729,7 @@
         "e8a0713b-c99d-44cd-ae0d-2b98bec13c75",
         "eaac31ee-15c0-4225-ae33-e4442bc14b25",
         "9a4fc99a-9e39-4ce2-b114-35b8a108b170",
+        "3ce27de1-fcd9-466a-86d2-9e92a446ac40",
         "831b0e6b-9694-41e7-902e-96f07d6d52df",
         "cd60d4c5-a81c-4ca7-95d5-1991972dce7e",
         "44db9e36-636d-47ab-acb6-6ac7568df227",

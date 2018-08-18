@@ -39,6 +39,7 @@ state_machine_init()
 state_create("Stand",state_player_stand)
 state_create("Air",state_player_air)
 state_create("Run", state_player_run)
+state_create("Shoot", state_player_shoot)
 
 // default state
 state_init("Stand");
