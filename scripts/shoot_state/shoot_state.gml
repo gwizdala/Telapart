@@ -11,8 +11,9 @@ if (block_exists)
 	{
 		show_debug_message("collision")
 	} else {
-		// If no, make unhappy sound
 		show_debug_message("no collision")
+		show_debug_message("removing block")
+		remove_block(mouse_x, mouse_y);
 	}
 }
 
