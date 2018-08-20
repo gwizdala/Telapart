@@ -1,8 +1,8 @@
 {
-    "id": "e8d77504-7e4f-495a-a3da-73c910f4caf8",
+    "id": "c54c55f3-17e3-4ff9-84fd-78836b0e3190",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "shoot_state",
+    "name": "dim_pos_meet",
     "IsCompatibility": false,
     "IsDnD": false
 }
