@@ -527,6 +527,14 @@
             }
         },
         {
+            "Key": "b33e9b27-0259-454c-85b9-3ede68c5f3b7",
+            "Value": {
+                "id": "813a240d-3e22-4961-b3e5-79a5c467f422",
+                "resourcePath": "scripts\\switch_debug\\switch_debug.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b51381dc-49ed-43fd-8c2f-2cac0a0a68f8",
             "Value": {
                 "id": "4a411e08-eab3-43df-8071-5c3736362471",
@@ -748,6 +756,7 @@
         "c54c55f3-17e3-4ff9-84fd-78836b0e3190",
         "831b0e6b-9694-41e7-902e-96f07d6d52df",
         "ded1a1b7-82dd-4804-bf67-25ef4f208685",
+        "b33e9b27-0259-454c-85b9-3ede68c5f3b7",
         "cd60d4c5-a81c-4ca7-95d5-1991972dce7e",
         "44db9e36-636d-47ab-acb6-6ac7568df227",
         "44d4c42b-af6f-4099-8514-8ce0787ad113",

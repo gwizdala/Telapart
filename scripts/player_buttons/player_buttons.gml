@@ -5,3 +5,5 @@ up = keyboard_check(ord("W")) || keyboard_check(vk_up);
 down = keyboard_check(ord("S")) || keyboard_check(vk_down);
 
 shoot = mouse_check_button(mb_left)
+
+debug = keyboard_check(ord("Z"))

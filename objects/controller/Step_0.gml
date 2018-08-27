@@ -27,6 +27,17 @@ if (time_since_shift >= dimension_shift_time_limit){
 	}
 }
 
+//Move character back to start
+if (dimension_changed) {
+	if (DEBUG){
+		//Don't do anything	
+	} else {
+		//Otherwise move player back to start
+		oPlayer.x = oPlayer.xstart
+		oPlayer.y = oPlayer.ystart
+	}
+}
+
 //Change layer properties based on dimension
 if (dimension_changed) {
 	next_dimension_index = increment_in_range(dimension_index,1,NUM_DIMENSIONS-1);
