@@ -8,6 +8,10 @@ y_pos = argument2;
 
 dimensioned_block = false;
 
+blocks[0] = oWall_0
+blocks[1] = oWall_1
+blocks[2] = oWall_2
+
 //Check if the current dimension has any blocks below
 switch (controller.dimension_index)
 {
@@ -15,19 +19,19 @@ switch (controller.dimension_index)
 		switch (dimension)
 		{
 			case "prev": 
-				if (place_meeting(x_pos, y_pos, oWall_3))
+				if (place_meeting(x_pos, y_pos, blocks[2]))
 				{
 					dimensioned_block = true;
 				}
 				break;
 			case "curr": 
-				if (place_meeting(x_pos, y_pos, oWall_1))
+				if (place_meeting(x_pos, y_pos, blocks[0]))
 				{
 					dimensioned_block = true;
 				}
 				break;
 			case "next": 
-				if (place_meeting(x_pos, y_pos, oWall_2))
+				if (place_meeting(x_pos, y_pos, blocks[1]))
 				{
 					dimensioned_block = true;
 				}
@@ -38,19 +42,19 @@ switch (controller.dimension_index)
 		switch (dimension)
 		{
 			case "prev": 
-				if (place_meeting(x_pos, y_pos, oWall_1))
+				if (place_meeting(x_pos, y_pos, blocks[0]))
 				{
 					dimensioned_block = true;
 				}
 				break;
 			case "curr": 
-				if (place_meeting(x_pos, y_pos, oWall_2))
+				if (place_meeting(x_pos, y_pos, blocks[1]))
 				{
 					dimensioned_block = true;
 				}
 				break;
 			case "next": 
-				if (place_meeting(x_pos, y_pos, oWall_3))
+				if (place_meeting(x_pos, y_pos, blocks[2]))
 				{
 					dimensioned_block = true;
 				}
@@ -61,19 +65,19 @@ switch (controller.dimension_index)
 		switch (dimension)
 		{
 			case "prev": 
-				if (place_meeting(x_pos, y_pos, oWall_2))
+				if (place_meeting(x_pos, y_pos, blocks[1]))
 				{
 					dimensioned_block = true;
 				}
 				break;
 			case "curr": 
-				if (place_meeting(x_pos, y_pos, oWall_3))
+				if (place_meeting(x_pos, y_pos, blocks[2]))
 				{
 					dimensioned_block = true;
 				}
 				break;
 			case "next": 
-				if (place_meeting(x_pos, y_pos, oWall_1))
+				if (place_meeting(x_pos, y_pos, blocks[0]))
 				{
 					dimensioned_block = true;
 				}

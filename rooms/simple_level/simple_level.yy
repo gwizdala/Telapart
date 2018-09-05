@@ -243,7 +243,7 @@
     "layers": [
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Dimension_3",
+            "name": "Dimension_2",
             "id": "5bb36d6e-f581-435b-9bdd-9a98faa1a014",
             "depth": 0,
             "grid_x": 32,
@@ -336,7 +336,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Dimension_2",
+            "name": "Dimension_1",
             "id": "3e9aa9d6-48ec-41d0-97a3-eace17b3fcdb",
             "depth": 100,
             "grid_x": 32,
@@ -440,7 +440,7 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Dimension_1",
+            "name": "Dimension_0",
             "id": "4deba374-7b9e-457d-b88f-4a4d2ff21c25",
             "depth": 200,
             "grid_x": 32,
