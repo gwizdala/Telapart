@@ -21,6 +21,8 @@ if (dim_pos_meet("curr", mouse_x, mouse_y))
 	{
 		show_debug_message("removing block")
 		dim_remove_block(mouse_x, mouse_y)
+		show_debug_message("adding block")
+		dim_create_block("next", mouse_x, mouse_y)
 	}
 } else
 {

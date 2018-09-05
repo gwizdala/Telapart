@@ -8,9 +8,10 @@ y_pos = argument2;
 
 dimensioned_block = false;
 
-blocks[0] = oWall_0
-blocks[1] = oWall_1
-blocks[2] = oWall_2
+// Create local copies of reference arrays, make sure they are
+// pass-by-value rather than pass-by-reference
+blocks = array_create(controller.NUM_DIMENSIONS)
+array_copy(blocks, 0, controller.block_ref, 0, controller.NUM_DIMENSIONS)
 
 //Check if the current dimension has any blocks below
 switch (controller.dimension_index)

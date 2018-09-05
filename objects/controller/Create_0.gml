@@ -18,3 +18,8 @@ dimension_index = 0;
 layer_ref[0] = layer_get_id("Dimension_0")
 layer_ref[1] = layer_get_id("Dimension_1")
 layer_ref[2] = layer_get_id("Dimension_2")
+
+//Block references
+block_ref[0] = oWall_0
+block_ref[1] = oWall_1
+block_ref[2] = oWall_2
