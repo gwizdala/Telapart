@@ -17,6 +17,7 @@ switch current_state {
 		idle_state();
 		break;
 	case player_states.jump:
+	case player_states.fall:
 		jump_state();
 		break;
 	case player_states.crouch:
