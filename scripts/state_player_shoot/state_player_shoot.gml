@@ -2,11 +2,7 @@
 //The State for when the player is shooting
 
 // set sprite		
-sprite = sPlayerShoot;
-
-// set state-appropriate acceleration and deceleration parameters
-a_speed = ground_accel;
-d_speed = ground_decel;
+sprite = sPlayer2Idle
 
 // set state appropriate speed
 h_speed = 0;
