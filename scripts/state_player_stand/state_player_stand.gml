@@ -13,12 +13,12 @@ if(state_new)
     x_speed=0;
     y_speed=0;
     image_speed=0;
-    sprite_index=sPlayerIdle;
+    sprite_index=sPlayer2Idle;
     image_index=0;
 	state_new=false;
 }
 // set sprite		
-sprite = sPlayerIdle;
+sprite = sPlayer2Idle;
 
 // set state-appropriate acceleration and deceleration parameters
 a_speed = ground_accel;

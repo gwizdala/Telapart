@@ -20,6 +20,7 @@ g_speed = 0.6;
 on_ground = false;
 j_power = -9; // the power of the player's jump
 landed = true; // determines when the jump completed
+falling = false; //determines if the player is falling down 
 
 // acceleration parameters
 air_accel		= 0.15; // acceleration when in the air

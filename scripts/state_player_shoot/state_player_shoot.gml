@@ -36,15 +36,18 @@ if (up)
 {
 	// Begin jump
 	v_speed = j_power;
+	state_switch("Air")
 }
 
-// switch state to air if in air
+// switch state to Air if in air
 if (!on_ground)
 {	
 	v_speed += g_speed;	
+	falling = true;
 	state_switch("Air")
-} else
+} 
 // switch state to running if movement key pressed
+else
 {
 	if (left) {
 		oPlayer.facing = -1;
