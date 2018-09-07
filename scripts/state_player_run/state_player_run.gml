@@ -6,7 +6,7 @@ a_speed = ground_accel;
 d_speed = ground_decel;
 
 // set sprite
-sprite = sPlayerWalk;
+sprite = sPlayer2Run;
 
 // handle horizontal movement acceleration + sliding
 if (left) {
@@ -34,12 +34,14 @@ if (up)
 {
 	// Begin jump
 	v_speed = j_power;
+	state_switch("Air")
 }
 
 // switch state to Air if in air
 if (!on_ground)
 {	
 	v_speed += g_speed;	
+	falling = true;
 	state_switch("Air")
 }
 // switch state to Stand if not moving

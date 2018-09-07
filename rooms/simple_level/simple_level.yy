@@ -237,7 +237,9 @@
         "cd10ca6a-50df-4606-9ea3-f8533e2159ff",
         "aaa0165e-f9dd-419f-b65f-e9db1e7c0fa8",
         "423ac658-4dbc-471d-95c4-9f6db369d71f",
-        "ce3dffbf-a96d-4540-ab36-14d675f55f8d"
+        "ce3dffbf-a96d-4540-ab36-14d675f55f8d",
+        "aa0b4561-331b-41e6-b856-f1531037560e",
+        "c54a7e61-5dc5-405d-b7f1-9a8242a0d3fd"
     ],
     "IsDnD": false,
     "layers": [
@@ -598,9 +600,36 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Scientist",
+            "id": "5af852bb-f382-47a6-8dbe-262cff26d5a2",
+            "depth": 500,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_3EFB5F19","id": "aa0b4561-331b-41e6-b856-f1531037560e","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_3EFB5F19","objId": "fd557a16-f839-42a7-834a-eb1a664accdc","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 768,"y": 352},
+{"name": "inst_332D436D","id": "c54a7e61-5dc5-405d-b7f1-9a8242a0d3fd","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_332D436D","objId": "7d918778-ccee-4098-bba4-e6a654f09ed3","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 736,"y": 320}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Teleporter",
             "id": "44334aca-39a5-4c5b-a006-8bd8c8b25d11",
-            "depth": 500,
+            "depth": 600,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -626,7 +655,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances",
             "id": "55c5a9cb-9ea0-45aa-a003-10f75305c455",
-            "depth": 600,
+            "depth": 700,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -655,7 +684,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4287928726 },
-            "depth": 700,
+            "depth": 800,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

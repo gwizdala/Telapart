@@ -3,21 +3,14 @@ a_speed = air_accel;
 d_speed = air_decel;
 
 // Handle sprite animation
-if (on_ground) 
-{
-	if(!landed) 
-	{
-		sprite = sPlayerJump;
-		frame = 7;
-	}
+if (frame > 7 || falling) {
+	sprite = sPlayer2Fall;
+	falling = true;
+
 } else {
-	sprite = sPlayerJump;
+	sprite = sPlayer2Jump;
 }
-		
-if (v_speed < 2 && frame > 3) {
-	//prevents animation repeat (floating)
-	frame = 3;
-}
+
 
 // Handle horizontal movement + acceleration
 if (left) {
@@ -54,6 +47,11 @@ else
 {
 	v_speed = 0;
 	landed = true;
+	falling = false;
 	// Update to new state
-	state_switch("Stand")
+	if (left || right) {
+		state_switch("Run");	
+	} else {
+		state_switch("Stand");
+	}
 }
