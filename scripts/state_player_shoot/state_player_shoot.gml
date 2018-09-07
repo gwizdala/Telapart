@@ -2,11 +2,7 @@
 //The State for when the player is shooting
 
 // set sprite		
-sprite = sPlayerShoot;
-
-// set state-appropriate acceleration and deceleration parameters
-a_speed = ground_accel;
-d_speed = ground_decel;
+sprite = sPlayer2Idle
 
 // set state appropriate speed
 h_speed = 0;
@@ -36,25 +32,6 @@ if (up)
 {
 	// Begin jump
 	v_speed = j_power;
-	state_switch("Air")
 }
 
-// switch state to Air if in air
-if (!on_ground)
-{	
-	v_speed += g_speed;	
-	falling = true;
-	state_switch("Air")
-} 
-// switch state to running if movement key pressed
-else
-{
-	if (left) {
-		oPlayer.facing = -1;
-		state_switch("Run")
-	} else if (right) {
-		oPlayer.facing = 1;
-		state_switch("Run")
-	}	
-}
-state_switch("Stand")
+update_player_state()

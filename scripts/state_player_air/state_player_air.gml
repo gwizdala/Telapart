@@ -11,47 +11,5 @@ if (frame > 7 || falling) {
 	sprite = sPlayer2Jump;
 }
 
-
-// Handle horizontal movement + acceleration
-if (left) {
-	// update sprite direction
-	oPlayer.facing = -1;
-	// reverse direction if already moving
-	if (h_speed > 0) {
-		h_speed = 0;	
-	}
-	h_speed = approach(h_speed, -m_speed, a_speed);
-} else if (right) {
-	// update sprite direction
-	oPlayer.facing = 1;
-	// reverse direction if already moving
-	if (h_speed < 0) {
-		h_speed = 0;	
-	}
-	h_speed = approach(h_speed, m_speed, a_speed);
-} else {
-	h_speed = approach(h_speed, 0, d_speed);
-}
-
 // Handle vertical movement + state change
-if (!on_ground)
-{	
-	v_speed += g_speed;	
-	landed = false;	
-	// handle jump control (distance up while in air)
-	if(v_speed < 0 && !up) {
-		v_speed *= 0.5; // cut the jump when the player lets off of the key	
-	}	
-} 
-else
-{
-	v_speed = 0;
-	landed = true;
-	falling = false;
-	// Update to new state
-	if (left || right) {
-		state_switch("Run");	
-	} else {
-		state_switch("Stand");
-	}
-}
+update_player_state()
