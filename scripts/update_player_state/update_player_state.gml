@@ -18,12 +18,10 @@ else
 		{
 			if (oPlayer.h_speed < 0)
 			{
-				oPlayer.facing = -1	
 				state_switch("Run")
 			}
 			else
 			{
-				oPlayer.facing = 1
 				state_switch("Run")
 			}
 		}

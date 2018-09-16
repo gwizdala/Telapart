@@ -23,7 +23,7 @@ landed = true; // determines when the jump completed
 falling = false; //determines if the player is falling down 
 
 // acceleration parameters
-air_accel		= 0.15; // acceleration when in the air
+air_accel		= 0.25; // acceleration when in the air
 ground_accel	= 0.75; // acceleration when on the ground
 air_decel		= 0.25;   // deceleration when in the air
 ground_decel	= 100; // deceleration when on the ground

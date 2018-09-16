@@ -6,12 +6,14 @@ d_speed = argument1;
 
 if (left) {
 	// reverse direction if already moving
+	oPlayer.facing = -1;
 	if (h_speed > 0) {
 		h_speed = 0;	
 	}
 	h_speed = approach(h_speed, -m_speed, a_speed);
 } else if (right) {
 	// reverse direction if already moving
+	oPlayer.facing = 1;
 	if (h_speed < 0) {
 		h_speed = 0;	
 	}
