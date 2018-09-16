@@ -5,7 +5,7 @@
 NUM_DIMENSIONS = 3;
 
 //Establish Global Variables
-DEBUG = true;
+DEBUG = false;
 
 curr_time = current_time;
 time_since_shift = 0;
