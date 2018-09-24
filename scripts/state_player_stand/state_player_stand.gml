@@ -1,11 +1,6 @@
 /// @description state_player_stand
 //The Standing State for Player
 
-if (debug)
-{
-	show_debug_message("debug triggered")
-	switch_debug()	
-}
 // Because this is default state, set vars to initial values
 // if being run for the first time
 if(state_new)
@@ -24,6 +19,11 @@ sprite = sPlayer2Idle;
 h_speed = 0;
 v_speed = 0;
 
+/*if (debug)
+{
+	show_debug_message("debug triggered")
+	switch_debug()	
+}*/
 // handle vertical movement
 if (up)
 {

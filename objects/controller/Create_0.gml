@@ -13,6 +13,7 @@ time_since_shift = 0;
 //Time before switching dimensions. Measured in milliseconds.
 dimension_shift_time_limit = 20000;
 dimension_index = 0;
+first_run=true;
 
 //Layer references
 layer_ref[0] = layer_get_id("Dimension_0")

@@ -23,7 +23,9 @@ if (place_meeting(x+h_speed, y, oWall) || dim_place_meet("curr", x+h_speed, y))
 	h_speed = 0;
 	h_collide = true;
 }
+show_debug_message("start x pos: "+string(x))
 x = x + h_speed;
+show_debug_message("end x pos: "+string(x))
 
 //Vertical Collision
 if (place_meeting(x,y+v_speed,oWall) || dim_place_meet("curr", x,y+v_speed))

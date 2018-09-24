@@ -6,10 +6,12 @@ time_since_shift = time_since_shift + (current_time - curr_time);
 curr_time = current_time;
 
 //If the game has just started, update dimension properties
-if (current_time < 10000){
+if (first_run){
 	dimension_changed = true;
+	first_run = false;
 } else {
 	dimension_changed = false;
+	first_run = false;
 }
 
 //Once you hit the time limit
@@ -32,6 +34,7 @@ if (dimension_changed) {
 	if (DEBUG){
 		//Don't do anything	
 	} else {
+		show_debug_message("Warping back to start")
 		//Otherwise move player back to start
 		oPlayer.x = oPlayer.xstart
 		oPlayer.y = oPlayer.ystart
